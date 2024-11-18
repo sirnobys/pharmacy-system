@@ -24,8 +24,8 @@ const dataStatsList = [
       </svg>
     ),
     color: "#3FD97F",
-    title: "Total Views",
-    value: "3.456K",
+    title: "Total Drugs",
+    value: "300",
     growthRate: 0.43,
   },
   {
@@ -46,7 +46,7 @@ const dataStatsList = [
       </svg>
     ),
     color: "#FF9C55",
-    title: "Total Profit",
+    title: "Total Sales",
     value: "$42.2K",
     growthRate: 4.35,
   },
@@ -74,8 +74,8 @@ const dataStatsList = [
       </svg>
     ),
     color: "#8155FF",
-    title: "Total Product",
-    value: "2.450",
+    title: "Expired Drugs",
+    value: "20",
     growthRate: 2.59,
   },
   {
@@ -112,8 +112,8 @@ const dataStatsList = [
       </svg>
     ),
     color: "#18BFFF",
-    title: "Total Users",
-    value: "3.465",
+    title: "Total Customers",
+    value: "2,000",
     growthRate: -0.95,
   },
 ];

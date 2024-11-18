@@ -3,33 +3,33 @@ import { Product } from "@/types/product";
 
 const productData: Product[] = [
   {
-    image: "/images/product/product-01.png",
-    name: "Apple Watch Series 7",
-    category: "Electronics",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgPdHzP7TwpMeVx-zWAq16JCNcPPJD39Xg0w&s",
+    name: "Drug 1",
+    category: "Stimulant",
     price: 296,
     sold: 22,
     profit: 45,
   },
   {
-    image: "/images/product/product-02.png",
-    name: "Macbook Pro M1",
-    category: "Electronics",
+    image: "https://www.svgrepo.com/show/189223/drugs-drug.svg",
+    name: "Mush",
+    category: "Hallucinogen",
     price: 546,
     sold: 12,
     profit: 125,
   },
   {
-    image: "/images/product/product-03.png",
-    name: "Dell Inspiron 15",
-    category: "Electronics",
+    image: "https://www.svgrepo.com/show/189255/drugs-drug.svg",
+    name: "Drug 4",
+    category: "Cannabinoids",
     price: 443,
     sold: 64,
     profit: 247,
   },
   {
-    image: "/images/product/product-04.png",
-    name: "HP Probook 450",
-    category: "Electronics",
+    image: "https://www.svgrepo.com/show/494369/drug.svg",
+    name: "Drug 3",
+    category: "Depressants",
     price: 499,
     sold: 72,
     profit: 103,
@@ -71,7 +71,7 @@ const TableTwo = () => {
           <div className="col-span-3 flex items-center">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
               <div className="h-12.5 w-15 rounded-md">
-                <Image
+                <img
                   src={product.image}
                   width={60}
                   height={50}

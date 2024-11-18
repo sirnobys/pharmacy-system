@@ -71,14 +71,14 @@ const Header = (props: {
             <h1 className="mb-0.5 text-heading-5 font-bold text-dark dark:text-white">
               Dashboard
             </h1>
-            <p className="font-medium">Next.js Admin Dashboard Solution</p>
+            <p className="font-medium">The pharmacy of your choice</p>
           </div>
         </div>
 
         <div className="flex items-center justify-normal gap-2 2xsm:gap-4 lg:w-full lg:justify-between xl:w-auto xl:justify-normal">
           <ul className="flex items-center gap-2 2xsm:gap-4">
             {/* <!-- Search Form --> */}
-            <SearchForm />
+            {/* <SearchForm /> */}
             {/* <!-- Search Form --> */}
 
             {/* <!-- Dark Mode Toggle --> */}
