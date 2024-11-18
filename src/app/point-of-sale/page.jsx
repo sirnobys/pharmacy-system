@@ -5,7 +5,6 @@ import ProductCard from '@/components/PointOfSale/ProductCard';
 // import FormElements from "@/components/FormElements";
 // import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
-import CartSummary from '@/components/Modals/CartSummary';
 
 // export const metadata: Metadata = {
 //   title: "Next.js Form Elements Page | NextAdmin - Next.js Dashboard Kit",
@@ -55,7 +54,7 @@ export default function PointOfSale() {
 
   return (
     <DefaultLayout>
-            <SearchForm />
+      <SearchForm />
 
       <div className="container mx-auto p-4">
         {/* <h1 className="text-2xl font-bold mb-4">Pharmacy POS</h1> */}
