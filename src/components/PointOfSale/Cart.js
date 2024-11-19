@@ -1,4 +1,6 @@
-// src/components/Cart.js
+'use client'
+import InvoiceModal from '@/components/Modals/InvoiceModal';
+
 export default function Cart({ cartItems, onRemoveFromCart }) {
   const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
@@ -30,6 +32,16 @@ export default function Cart({ cartItems, onRemoveFromCart }) {
         </ul>
       )}
       <p className="mt-4 font-bold">Total: ${totalPrice.toFixed(2)}</p>
+      <div className="flex justify-between pt-5">
+        <InvoiceModal invoiceDetails={cartItems}/>
+        <button
+          className="flex items-center justify-center rounded-[7px] bg-primary px-3 py-[7px] font-medium text-gray-2 hover:bg-opacity-90"
+          type="submit"
+        >
+          pay bill
+        </button>
+
+      </div>
     </div>
   );
 }

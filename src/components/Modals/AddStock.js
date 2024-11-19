@@ -72,7 +72,7 @@ export default function AddStock() {
                     <InputGroup
                       label="Manufactured date"
                       type="date"
-                      placeholder="Manufactured date"
+                      placeholder="Manufactured price"
                       customClasses="w-full xl:w-1/2"
                     />
                   </div>

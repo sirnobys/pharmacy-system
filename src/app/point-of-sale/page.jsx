@@ -29,6 +29,9 @@ const products = [
   { id: 1, name: 'Aspirin', price: 10.5, image: 'https://media.post.rvohealth.io/wp-content/uploads/2020/08/766x415_Is_Aspirin_an_NSAID-1-732x415.jpg' },
   { id: 2, name: 'Cough Syrup', price: 15.0, image: 'https://www.cofsils.com/uploadfile/product/dx_cough.jpg' },
   { id: 3, name: 'Vitamin C', price: 12.75, image: 'https://top-uppharmacy.com/wp-content/uploads/2023/07/Easylife-Vitamin-C-1000mg.jpg' },
+  { id: 4, name: 'Aspirin', price: 10.5, image: 'https://media.post.rvohealth.io/wp-content/uploads/2020/08/766x415_Is_Aspirin_an_NSAID-1-732x415.jpg' },
+  { id: 5, name: 'Cough Syrup', price: 15.0, image: 'https://www.cofsils.com/uploadfile/product/dx_cough.jpg' },
+  { id: 6, name: 'Vitamin C', price: 12.75, image: 'https://top-uppharmacy.com/wp-content/uploads/2023/07/Easylife-Vitamin-C-1000mg.jpg' },
 ];
 
 export default function PointOfSale() {
